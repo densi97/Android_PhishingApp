@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PhishingApp</string>
+    <string name="phishing_activity">Phishing Activity</string>
+    <string name="main">Phishing Main</string>
+</resources>
