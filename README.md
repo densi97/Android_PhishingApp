@@ -1,6 +1,8 @@
 # POC
 
-This is just for demonstration purpose and should not be abused for any kind of malicious actions
+This is just for demonstration purpose and should not be abused for any kind of malicious actions.
+
+See this [video](https://www.youtube.com/watch?v=DOy3AReZZes) for demonstration of this attack.
 
 ## AppLink over-permission
 
