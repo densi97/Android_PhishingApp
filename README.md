@@ -19,6 +19,6 @@ This is just a proof of concept and of course, the app can be designed better to
 
 ## Disclosure
 
-Google and Facebook are aware of the vulnerability, but do not feel that it needs to be patched immediately. I think that even experienced users can be tricked in this way so this just definetly be fixed asap.
+Google and Facebook are aware of the vulnerability, but do not feel that it needs to be patched immediately. I think that even experienced users can be tricked in this way so this must definetly be fixed asap.
 
 
